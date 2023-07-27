@@ -9,11 +9,15 @@
     <link rel="stylesheet" href="/static/style.css" />
   </head>
   <body>
-    <div class="first_display">
+    <div class="background-1">
       {{ template "navbar" }}
-      {{ template "main_content" }}
+      {{ template "first_display" }}
     </div>
+    <section class="second_display">
       {{ template "second_display" }}
+    </section>
+    <footer>
       {{ template "footer" }}
+    </footer>
   </body>
 </html>
