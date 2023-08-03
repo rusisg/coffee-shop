@@ -4,7 +4,7 @@
         <a class="logo" href="/"><p>Rasul”s Coffee</p></a>
         <div class="links">
             <a href="#">Home</a>
-            <a href="#">Menu</a>
+            <a href="/menu.html">Menu</a>
             <a href="#">About Us</a>
             <a href="#">Contact Us</a>
         </div>
@@ -23,8 +23,8 @@
 {{ end }}
 
 
-{{define "second_display"}}
-<section class="second_display">
+{{ define "about_coffee"}}
+<div class="about_coffee">
     <div class="side_text">
         <h1>Discover the best coffee</h1>
         <p>Bean Scene is a coffee shop that provides you with quality <br> coffee that helps boost your productivity and helps build <br> your mood. Having a cup of coffee is good, but having a cup <br> of real coffee is greater. There is no doubt that you will <br> enjoy this coffee more than others you have ever tasted.</p>
@@ -33,9 +33,20 @@
     <div class="image_container">
         <img src="static/section_secondDisplay/stylized-cup-coffee-out-coffee-beans-flat-lay 1.png" alt="">
     </div>
-</section>
+</div>
 {{ end }}
 
+{{ define "enjoy_coffee"}}
+<div class="enjoy_coffee">
+    <div class="header_text">
+        <h1>Enjoy a new blend of coffee style</h1>
+        <p>Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+    </div>
+    <div class="mini_catalog">
+
+    </div>
+</div>
+{{ end }}
 
 {{ define "footer" }}
 {{ end }}

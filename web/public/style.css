@@ -143,6 +143,10 @@ header .logo {
 
 .second_display {
     display: flex;
+}
+
+.about_coffee {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px auto;
@@ -151,7 +155,7 @@ header .logo {
 }
 
 @media (max-width: 1100px) {
-    .second_display {
+    .about_coffee {
         flex-direction: column;
 
     }
